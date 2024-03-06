@@ -1,0 +1,15 @@
+[buildPlans.Oniosevka]
+family = "Oniosevka"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.Oniosevka.variants.design]
+lig-ltgteq = "slanted"
+lig-equal-chain = "without-notch"
+lig-hyphen-chain = "without-notch"
+
+[buildPlans.Oniosevka.ligations]
+inherits = "dlig"
+enables = ["eqeqeq", "exeqeqeq", "exeqeq", "eqexeq", "minus-minus-minus", "underscore-underscore", "plus-plus", "hash-hash", "tilde-tilde"]
